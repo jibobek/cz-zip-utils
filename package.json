@@ -1,0 +1,44 @@
+{
+  "name": "cz-zip-utils",
+  "version": "1.0.0",
+  "description": "Utility library for validating Czech postal codes (ZIP / PSČ) and looking up cities by ZIP.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "download": "node ./scripts/download.js",
+    "build": "tsc",
+    "test": "vitest",
+    "prepare": "npm run build",
+    "format": "prettier --write .",
+    "lint:ci": "prettier --check .",
+    "test:ci": "vitest run --reporter=verbose"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "czech",
+    "psc",
+    "zip",
+    "postcode",
+    "validator",
+    "cz",
+    "postal codes"
+  ],
+  "author": "Jindrich Bobek",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jibobek/cz-zip-utils.git"
+  },
+  "devDependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.10.0",
+    "csv-parser": "^3.2.0",
+    "iconv-lite": "^0.6.3",
+    "prettier": "^3.6.1",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
