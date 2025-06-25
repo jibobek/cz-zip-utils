@@ -10,7 +10,7 @@ Utility library for validating Czech postal codes (ZIP / PSČ) and looking up ci
 
 ```bash
 npm install cz-zip-utils
-````
+```
 
 or
 
@@ -74,12 +74,12 @@ This will regenerate the `data/index.ts` file.
 
 ## 🛠️ Scripts
 
-| Script             | Description                           |
-| ------------------ | ------------------------------------- |
-| `npm run build`    | Compile TypeScript to `dist/`         |
-| `npm run test`     | Run tests using Vitest                |
-| `npm run format`   | Format code with Prettier             |
-| `npm run download` | Download and generate latest data     |
+| Script             | Description                       |
+| ------------------ | --------------------------------- |
+| `npm run build`    | Compile TypeScript to `dist/`     |
+| `npm run test`     | Run tests using Vitest            |
+| `npm run format`   | Format code with Prettier         |
+| `npm run download` | Download and generate latest data |
 
 ---
 
