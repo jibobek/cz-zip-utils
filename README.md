@@ -3,6 +3,8 @@
 Utility library for validating Czech postal codes (ZIP / PSČ) and looking up cities by ZIP.
 
 [![CI](https://github.com/jibobek/cz-zip-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/jibobek/cz-zip-utils/actions)
+![license](https://img.shields.io/npm/l/cz-zip-utils)
+[![npm](https://img.shields.io/npm/v/cz-zip-utils)](https://www.npmjs.com/package/cz-zip-utils)
 
 ---
 
